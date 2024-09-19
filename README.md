@@ -13,14 +13,6 @@ Applications
 Автоматическое обновление информации о батарее в реальном времени.
 Использование:
 
-Клонируйте репозиторий:
-git clone https://github.com/yourusername/battery-status-monitoring.git
-cd battery-status-monitoring
-
-Скомпилируйте и запустите приложение:
-g++ -o BatteryStatusLogger BatteryStatusLogger.cpp -lpowrprof
-./BatteryStatusLogger
-
 2. Battery Status GUI
 Описание: Приложение с графическим интерфейсом для отображения текущего состояния батареи и управления состоянием ноутбука.
 
@@ -29,14 +21,6 @@ g++ -o BatteryStatusLogger BatteryStatusLogger.cpp -lpowrprof
 Отображение информации о состоянии батареи в графическом интерфейсе.
 Управление состоянием ноутбука (спящий режим и гибернация).
 Использование:
-
-Клонируйте репозиторий:
-git clone https://github.com/yourusername/battery-status-monitoring.git
-cd battery-status-monitoring
-
-Скомпилируйте и запустите приложение:
-g++ -o BatteryStatusGUI BatteryStatusGUI.cpp -lgdi32 -lpowrprof
-./BatteryStatusGUI
 
 Requirements
 Windows OS
